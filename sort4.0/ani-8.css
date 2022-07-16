@@ -1,0 +1,243 @@
+.one{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    float:left;
+    animation-name: Eight;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.two{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    float:left;
+    animation-name: Three;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.three{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    float:left;
+    animation-name: Two;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.four{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    float:left;
+    animation-name: One;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Eight{
+    0%{border-color:crimson ; left:0px;}
+    25%{border-color:crimson ; border-style: solid; left:115px;}
+    50%{border-color:crimson ; border-style: solid; left:225px;}
+    75%{border-color:crimson ; border-style: solid; left:335px;}
+    100%{left:335px;}
+}
+@keyframes Three{
+    0%{right:0px;}
+    25%{border-color:crimson ; border-style: solid; right:115px;}
+    50%{right:115px; border-style: hidden;}
+    75%{right:115px; border-style: hidden;}
+    100%{right:115px; border-style: hidden;}
+}
+@keyframes Two{
+    0%{right:0px;}
+    25%{right:0px;}
+    50%{border-color:crimson ; border-style: solid; right:115px;}
+    75%{right:115px; border-style: hidden;}
+    100%{right:115px; border-style: hidden;}
+}
+@keyframes One{
+    0%{right:0px;}
+    25%{right:0px;}
+    50%{right:0px;}
+    75%{border-color:crimson ; border-style: solid; right:115px;}
+    100%{right:115px; border-style: hidden;}
+}
+
+.one_3{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    float:left;
+    animation-name: ONE_3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.two_2{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    float:left;
+    animation-name: TWO_2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.three_1{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    float:left;
+    animation-name: THREE_1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.four_8{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    float:left;
+    animation-name: FOUR_8;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes ONE_3{
+    0%{border-color:crimson ; left:0px;}
+    25%{border-color:crimson ; border-style: solid; left:115px;}
+    50%{border-color:crimson ; border-style: solid; left:225px;}
+    75%{border-color:crimson ; border-style: solid; left:225px;}
+    100%{left:225px;}
+}
+@keyframes TWO_2{
+    0%{right:0px;}
+    25%{border-color:crimson ; border-style: solid; right:115px;}
+    50%{right:115px; }
+    75%{right:115px; }
+    100%{right:115px; }
+}
+@keyframes THREE_1{
+    0%{right:0px;}
+    25%{right:0px;}
+    50%{border-color:crimson ; border-style: solid; right:115px;}
+    75%{right:115px;}
+    100%{right:115px;}
+}
+@keyframes FOUR_8{
+    0%{right:0px;}
+    25%{right:0px;}
+    50%{right:0px;}
+    75%{border-color:crimson ; border-style: solid; right:0px;}
+    100%{right:0px;}
+}
+
+.one_2{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    float:left;
+    animation-name: ONE_2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.two_1{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    float:left;
+    animation-name: TWO_1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.three_3{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    float:left;
+    animation-name: THREE_3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.four_8{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: aquamarine;
+    position: relative;
+    float:left;
+    animation-name: FOUR_8;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes ONE_2{
+    0%{border-color:crimson ; left:0px;}
+    25%{border-color:crimson ; border-style: solid; left:115px;}
+    50%{border-color:crimson ; border-style: solid; left:115px;}
+    75%{border-color:crimson ; border-style: solid; left:115;}
+    100%{left:115px;}
+}
+@keyframes TWO_1{
+    0%{right:0px;}
+    25%{border-color:crimson ; border-style: solid; right:115px;}
+    50%{right:115px; border-color: aquamarine;}
+    75%{right:115px; border-color: aquamarine;}
+    100%{right:115px; border-color: aquamarine;}
+}
+@keyframes THREE_3{
+    0%{right:0px;}
+    25%{right:0px;}
+    50%{border-color:crimson ; border-style: solid; right:0px;}
+    75%{right:0px; border-color: aquamarine;}
+    100%{right:0px; border-color: aquamarine;}
+}
+@keyframes FOUR_8{
+    0%{right:0px;}
+    25%{right:0px;}
+    50%{right:0px;}
+    75%{border-color:crimson ; border-style: solid; right:0px;}
+    100%{right:0px; border-color: aquamarine;}
+}

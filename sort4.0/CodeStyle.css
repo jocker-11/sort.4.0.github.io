@@ -1,0 +1,60 @@
+.example{
+    position: relative;
+    left: 460px;
+    border-radius: 5px;
+    background-color:lightgray;
+    width:500px;
+    padding: 8px 20px;
+    margin: 24px -20px;
+}
+.example_code{
+    border-radius: 5px;
+    background-color:black;
+    width: auto;
+    margin: 16px 0px;
+    padding: 8px 12px;
+}
+.CodeColor_1{
+    color:aliceblue;
+}
+.CodeColor_2{
+    color:#88c999;
+}
+.ExplainCode{
+    position: relative;
+    left: 100px;
+    border-radius: 5px;
+    background-color:lightgray;
+    width:500px;
+    padding: 8px 20px;
+    margin: 24px -20px;
+}
+.ParagraphCode{
+    background-color:lightgray; 
+    color:crimson;
+    padding: 1px 3px;
+}
+.code_font{
+    font-family : "Courier New", Courier, monospace;
+}
+
+.TestCode{
+    position: relative;
+    left: 50px;
+    border-radius: 5px;
+    background-color: lightgray;
+    width:fit-content;
+    padding: 8px 20px;
+    margin: 24px -20px;
+}
+.InputCode{
+    background-color:black; 
+    color: aliceblue;
+    font-size: 16px;
+}
+.CommentText{
+    color:#88c999;
+    background-color:black; 
+    font-size: 16px;
+}
+
